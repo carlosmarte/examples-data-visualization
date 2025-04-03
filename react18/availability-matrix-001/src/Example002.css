@@ -1,0 +1,76 @@
+/* AvailabilityGrid.css */
+
+.availability-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.availability-grid {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.grid-cell {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.cell-value {
+  font-size: 8px;
+  color: transparent;
+}
+
+/* Legend styles */
+.grid-legend {
+  margin-top: 16px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+/* Footer styles */
+.grid-footer {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .grid-cell {
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-cell {
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+  }
+}

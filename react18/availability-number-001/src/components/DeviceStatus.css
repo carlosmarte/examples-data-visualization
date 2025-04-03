@@ -1,0 +1,37 @@
+.device-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.device-title {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.divider {
+  border-top: 1px solid #eee;
+  margin: 15px 0;
+}
+
+.status-label {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #666;
+}
+
+.availability-value {
+  font-size: 3rem;
+  color: #4caf50;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.device-name {
+  color: #666;
+  font-size: 1rem;
+}
